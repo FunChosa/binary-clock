@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+
+:root {
+  --textColor: #4c4c4c;
+  --onColor: #0078ff;
+  --offColor: #222222;
+  --backgroundColor: #000000;
+  --size: 25px;
+}
+
+* {
+  font-family: "Jura", cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: var(--backgroundColor);
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  gap: 5px;
+  background-color: var(--backgroundColor);
+  min-width: calc(var(--size) * 15);
+  min-height: calc(var(--size) * 30);
+}
+
+.binary {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.binary:nth-child(2n) {
+  margin-right: 20px;
+}
+
+.binary:nth-child(6n) {
+  margin-right: 40px;
+}
+
+.binary span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.binary span.off {
+  background-color: var(--offColor);
+}
+
+.binary span.on {
+  background-color: var(--onColor);
+  box-shadow: 0 0 calc(5px) var(--onColor), 0 0 calc(5px) var(--onColor);
+}
+
+.binary p {
+  text-align: center;
+  color: var(--textColor);
+  font-size: 24px;
+}
