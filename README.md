@@ -26,7 +26,7 @@ A simple and visually appealing binary clock application that displays the curre
 
 The application's state is managed using the `useState` hook.
 
-### Binary Conversion Algorithm
+## Binary Conversion Algorithm
 
 The application uses a custom algorithm to convert decimal digits into their 4-bit binary representations.  This algorithm is implemented in the `divide` function:
 
