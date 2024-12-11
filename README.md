@@ -15,7 +15,7 @@ A simple and visually appealing binary clock application that displays the curre
 * Binary representation: Time (hours, minutes, seconds) and date (day, month, year) are shown using binary code.
 * Clear visual design: Each binary digit is represented by four LEDs (circles) that illuminate to represent 1s and 0s.
 * Intuitive interface: Simple and easy to understand display.
-*Standard format display: The current time and date are also displayed below the binary representation in a standard, easily readable format.
+* Standard format display: The current time and date are also displayed below the binary representation in a standard, easily readable format.
 
 ## Technology Stack
 
